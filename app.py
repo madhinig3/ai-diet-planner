@@ -13,8 +13,7 @@ from openai import OpenAI
 # =====================================================
 import os
 if os.name == "nt":
-    pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-
+    import pytesseract
 st.set_page_config(page_title="AI Personalized Diet Planner", layout="wide")
 
 import os
